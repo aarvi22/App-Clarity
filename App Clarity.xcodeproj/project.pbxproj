@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		386029AD2A7D4EB000E70460 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386029AC2A7D4EB000E70460 /* test.swift */; };
+		386029AF2A7D512100E70460 /* notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386029AE2A7D512100E70460 /* notes.swift */; };
+		386029B12A7D537D00E70460 /* allTabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386029B02A7D537D00E70460 /* allTabs.swift */; };
+		386029B32A7D5FC300E70460 /* noteTrial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386029B22A7D5FC300E70460 /* noteTrial.swift */; };
+		386029B52A7D631100E70460 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386029B42A7D631100E70460 /* NotesView.swift */; };
 		38D07ED72A7C1EDE00FF4A67 /* affirmation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D07ED62A7C1EDE00FF4A67 /* affirmation.swift */; };
 		AC24F50D2A7AF00700BC99C3 /* App_ClarityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC24F50C2A7AF00700BC99C3 /* App_ClarityApp.swift */; };
 		AC24F50F2A7AF00700BC99C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC24F50E2A7AF00700BC99C3 /* ContentView.swift */; };
@@ -15,6 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		386029AC2A7D4EB000E70460 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		386029AE2A7D512100E70460 /* notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notes.swift; sourceTree = "<group>"; };
+		386029B02A7D537D00E70460 /* allTabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allTabs.swift; sourceTree = "<group>"; };
+		386029B22A7D5FC300E70460 /* noteTrial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = noteTrial.swift; sourceTree = "<group>"; };
+		386029B42A7D631100E70460 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
 		38D07ED62A7C1EDE00FF4A67 /* affirmation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = affirmation.swift; sourceTree = "<group>"; };
 		AC24F5092A7AF00700BC99C3 /* App Clarity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App Clarity.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC24F50C2A7AF00700BC99C3 /* App_ClarityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App_ClarityApp.swift; sourceTree = "<group>"; };
@@ -38,6 +48,11 @@
 		AC24F5002A7AF00700BC99C3 = {
 			isa = PBXGroup;
 			children = (
+				386029B42A7D631100E70460 /* NotesView.swift */,
+				386029B02A7D537D00E70460 /* allTabs.swift */,
+				386029AC2A7D4EB000E70460 /* test.swift */,
+				386029AE2A7D512100E70460 /* notes.swift */,
+				386029B22A7D5FC300E70460 /* noteTrial.swift */,
 				AC24F50B2A7AF00700BC99C3 /* App Clarity */,
 				AC24F50A2A7AF00700BC99C3 /* Products */,
 			);
@@ -142,8 +157,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				386029B32A7D5FC300E70460 /* noteTrial.swift in Sources */,
 				AC24F50F2A7AF00700BC99C3 /* ContentView.swift in Sources */,
+				386029B12A7D537D00E70460 /* allTabs.swift in Sources */,
+				386029AF2A7D512100E70460 /* notes.swift in Sources */,
+				386029AD2A7D4EB000E70460 /* test.swift in Sources */,
 				AC24F50D2A7AF00700BC99C3 /* App_ClarityApp.swift in Sources */,
+				386029B52A7D631100E70460 /* NotesView.swift in Sources */,
 				38D07ED72A7C1EDE00FF4A67 /* affirmation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
