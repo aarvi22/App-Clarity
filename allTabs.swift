@@ -20,6 +20,11 @@ struct allTabs: View {
                     Image(systemName: "note.text")
                     Text("notes")
                 }
+            ToDoList()
+                .tabItem() {
+                    Image(systemName: "list.bullet")
+                    Text("to do")
+                }
         }
     }
 }
